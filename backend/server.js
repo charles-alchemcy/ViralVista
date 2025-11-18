@@ -38,6 +38,7 @@ const startServer = async () => {
                     console.error(`Error: ${stderr}`);
                     return res.status(500).send("Error running Selenium script.");
                 }
+                
                 res.send("Script executed successfully!");
             });
         });
