@@ -41,6 +41,7 @@ const startServer = async () => {
                 res.send("Script executed successfully!");
             });
         });
+        
 
         // Fetch Latest Trends Endpoint
         app.get("/get-latest", async (req, res) => {
